@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+}
+/*Navigation bar starts	*/
+.NavigationBar{
+	display: flex;
+	justify-content: space-evenly;
+	position: fixed;
+	background-color: #333;
+	width: 100%;
+	overflow: hidden;
+	top: 0;
+}
+.NavigationBar h3{
+	color: #ddd;
+	font-size: 25px;
+}
+.NavigationBar a,img{
+	color: #f2f2f2;
+	text-align: center;
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.NavigationBar a:hover{
+	background: #ddd;
+	color: black;
+}
+/*Navigation bar ends*/

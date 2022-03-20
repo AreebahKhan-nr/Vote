@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="SignUp.css">
+	<title>Sign Up</title>
+</head>
+<body>
+	<div class="SignUpForm">
+		<div class="title">Sign Up</div><br>
+		<form action="store.php" method="POST">
+			<div class="UserInfo">	
+				<div class="input-box">
+					<label for="FirstName">First Name</label>
+					<input type="text" name="FirstName" placeholder="First Name"><br>
+				</div>
+
+
+				<div class="input-box">
+					<label for="LastName">Last Name</label>
+					<input type="text" name="LastName" placeholder="Last Name"><br>
+				</div>
+
+				<div class="input-box">
+					<label for="bday">Date of Birth</label>
+					<input type="date" name="bday"><br>
+				</div>
+
+				<label for="gender" id="gender">Gender</label><br>
+
+				<input type="radio" name="gender" value="m">
+				<label for="male">Male</label>
+				
+				<input type="radio" name="gender" value="f">
+				<label for="female">Female</label>
+
+				<input type="radio" name="gender" value="o">
+				<label for="other">Other</label><br>
+
+				<div class="input-box" style="margin-top: 6px;">
+					<label for="address">Address</label>
+					<textarea name="Address" rows="3" cols="60" style="resize: none;" placeholder="Enter your address" name="address"></textarea><br>
+				</div>
+
+				<div class="input-box">
+					<label for="number">Phone</label>
+					<input type="tel" name="Phone" placeholder="1234567890" ><br>
+				</div>
+
+				<div class="input-box">
+					<label for="aadhar">Aadhar Number</label>
+					<input type="text" name="Aadhar"><br>
+				</div>
+
+				<div class="input-box">
+					<label for="mail">E-mail</label>
+					<input type="email" name="Email" placeholder="Name123@gmail.com"><br>
+				</div>
+
+				<label for="photo">Passport-size Photo</label>
+				<input type="file" id="photo">      
+				<label for="photo" style="border-radius: 5px; display: flex; justify-content: center;">Select</label><br>
+
+				<div class="input-box">
+					<label for="pw">Password</label>
+					<input type="password" name="Password" placeholder="Enter your Password"><br>
+				</div>
+
+				<div class="input-box">
+					<label for="pw1">Re-enter Password</label>
+					<input type="password" name="Password1" placeholder="Re-enter your Password"><br>
+				</div>
+
+				<div class="button">
+					<input type="submit"  value="Submit" name="submit"><br>
+				</div>
+				Already registered?<a href="D:/Final%20Year%20Major%20Project/VodeMode/login.html">Login Here.</a>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
